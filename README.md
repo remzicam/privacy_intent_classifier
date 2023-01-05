@@ -5,21 +5,21 @@ Privacy Policy Intent Classifier with Docker, FastAPI, uvicorn, and Huggingface 
 
 Designed to split privacy policies into individual sentences and classify their intent. The app allows users to input a privacy policy and receive a breakdown of the policy's content and its underlying intentions.It uses Docker containers and FastAPI to process and analyze the policies. Huggingface space hosts the app. 
 
-**App link : https://huggingface.co/spaces/remzicam/privacy_intent
+**App link :** https://huggingface.co/spaces/remzicam/privacy_intent
 
-**Model link: https://huggingface.co/remzicam/privacy_intent
+**Model link:** https://huggingface.co/remzicam/privacy_intent
 
 5 Intents:
 
-*(1) Data Collection/Usage: What, why and how user information is collected;
+*(1) Data Collection/Usage: What, why and how user information is collected;*
 
-*(2) Data Sharing/Disclosure: What, why and how user information is shared with or collected by third parties;
+*(2) Data Sharing/Disclosure: What, why and how user information is shared with or collected by third parties;*
 
-*(3) Data Storage/Retention: How long and where user information will be stored;
+*(3) Data Storage/Retention: How long and where user information will be stored;*
 
-*(4) Data Security/Protection: Protection measures for user information;
+*(4) Data Security/Protection: Protection measures for user information;*
 
-*(5) Other: Other privacy practices that do not fall into the above four categories.
+*(5) Other: Other privacy practices that do not fall into the above four categories.*
 
 For more info: https://aclanthology.org/2021.acl-long.340/
 
