@@ -29,12 +29,14 @@ Privacy policies can be difficult for users to understand, leading to mistrust b
 
 ## Dataset
 
-[PolicyIE]([https://duckduckgo.com](https://aclanthology.org/2021.acl-long.340/)).
+[PolicyIE](https://aclanthology.org/2021.acl-long.340/).
 
 ## Model
 PrivBERT model is fine-tuned for this task.
 
-F1 Score: 88 (%4 performance increase compared to original work)
+The back translation method (data augmentation) resulted in a 1% improvement in performance when applied to imbalanced samples 
+
+**F1 Score: 88** (%4 performance increase compared to original work)
 
 ## Tools used
 
