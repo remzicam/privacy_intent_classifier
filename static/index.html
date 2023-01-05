@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Privacy Policy Intent Classifier</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <section id="text-gen">
+        <h1>Privacy Policy Intent Classifier</h1>
+        <!-- Trigger/Open The Modal -->
+        <button id="myBtn">Intent Explanations</button>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+          <!-- Modal content -->
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <p> 5 Intents:
+              <br> 
+              <br><em>(1) Data Collection/Usage: What, why and how
+              user information is collected;
+              <br>(2) Data Sharing/Disclosure: What, why and how
+              user information is shared with or collected
+              by third parties;
+              <br>(3) Data Storage/Retention: How long and where
+              user information will be stored;
+              <br>(4) Data Security/Protection: Protection measures for user information;
+              <br>(5) Other: Other privacy practices that do not fall
+              into the above four categories.</em>
+              <br> 
+              <br>Model is trained on PolicyIE dataset. <a href="https://aclanthology.org/2021.acl-long.340/">For more info</a>
+            </p>
+          </div>
+
+        </div>
+          </script>
+        <form class="text-gen-form">
+          <label for="text-gen-input">Text prompt</label>
+          <input 
+            id="text-gen-input"
+            contenteditable="true"
+            overflow-y= "scroll"
+            style="height: 30px; width: 700px;"
+            type="text"
+            value="At any time during your use of the Services, you may decide to share some information or content publicly or privately. 
+              If you decide to share your information or content publicly, and if you decide to include Personal Information, you understand that anyone may view this information.
+              If you decide to keep your information private and control the access to it, you understand that only the users that you authorize will view this information. 
+              The Company also reserves the right to access this information with your consent, or without your consent only for the purposes of pursuing legitimate interests such as maintaining security on its Services or complying with any legal or regulatory obligations." 
+          />
+          <button id="text-gen-submit">Submit</button>
+          <p class="text-gen-output"></p>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

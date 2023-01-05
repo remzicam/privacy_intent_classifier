@@ -1,0 +1,8 @@
+fastapi==0.74.*
+requests==2.27.*
+pysbd==0.3.4
+uvicorn[standard]==0.17.*
+transformers
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.13.1+cpu
+
