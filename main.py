@@ -6,11 +6,12 @@ from pysbd import Segmenter
 
 app = FastAPI()
 segmenter = Segmenter(language='en', clean=False)
-model = AutoModelForSequenceClassification.from_pretrained("remzicam/privacy_intent")
-tokenizer = AutoTokenizer.from_pretrained("mukund/privbert")
-privacy_intent_pipe = pipeline("text-classification",
-                                model = model,
-                                tokenizer = tokenizer)
+task = "text-classification"
+model_name = "remzicam/privacy_intent"
+privacy_intent_pipe = pipeline(
+                               task,
+                               model_name
+                               )
 
 def doc2sent(text:str)-> dict:
     """
