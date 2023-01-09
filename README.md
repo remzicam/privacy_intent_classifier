@@ -47,3 +47,5 @@ The back translation method (data augmentation) resulted in a 1% improvement in 
 • transformers: model finetuning
 
 • datasets: to load and manipulate the data
+
+• html-css: to make the web app more beautiful
